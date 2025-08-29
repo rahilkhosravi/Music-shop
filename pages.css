@@ -1,0 +1,149 @@
+#products-section { 
+  padding: 24px 0 40px; 
+}
+#products-section h2 { 
+  font-size: 20px; 
+  margin: 8px 0 16px; 
+}
+#products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+#product-section { 
+  padding: 24px 0 40px; 
+}
+.product-detail {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+.pd-image img {
+  width: 420px;
+  height: 320px;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+.pd-info {
+   flex: 1; 
+}
+.pd-desc {
+  color: #555;
+  margin: 10px 0 16px; 
+}
+.pd-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0 16px;
+}
+.pd-links {
+  margin-top: 8px;
+}
+
+#cart-section { 
+  padding: 24px 0 40px; 
+}
+.cart-empty {
+  padding: 24px;
+  background: #fff;
+  border: 1px dashed #ccc;
+  border-radius: 10px;
+}
+#home-categories {
+   padding: 20px 0 40px; 
+}
+#home-categories h2 {
+   font-size: 22px;
+    margin: 8px 0 16px; 
+}
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 14px; 
+}
+
+.cat-card {
+  background: #eee;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  display: block;
+  transition: transform .12s ease, box-shadow .12s ease;
+  color: inherit; 
+}
+.cat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0,0,0,.06);
+}
+.cat-emoji {
+  font-size: 100px;
+  line-height: 2;
+  margin-bottom: 10px; 
+}
+.cat-title {
+   font-size: 20px;
+   margin-bottom: 4px;
+   color :#000000;
+}
+.cat-slug { 
+  font-size: 100px;
+  color: #000000; 
+}
+
+
+form .form-group {
+  margin-bottom: 1rem;  
+  position: relative;
+}
+
+.error-msg {
+  display: block;
+  font-size: 0.85rem;
+  color: red;
+  margin-top: 4px;     
+  position: static;     
+}
+
+#checkout-section {
+  padding: 26px 0 40px; 
+}
+.checkout-layout {
+  display: flex;
+  gap: 24px;
+}
+.checkout-form {
+  flex: 1;
+  background: #eee;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 16px;
+}
+.checkout-summary {
+  width: 300px;
+  background: rgb(255, 255, 255);
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 16px;
+}
+.checkout-summary h3 {
+   margin-top: 0; 
+}
+.summary-line { 
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0; 
+}
+.summary-line.total {
+   font-size: 18px; 
+}
+
+#success-section {
+  padding: 40px 0 60px;
+}
+#success-section h2 {
+   margin-bottom: 8px; 
+}
