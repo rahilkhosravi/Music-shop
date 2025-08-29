@@ -11,7 +11,7 @@ A simple and responsive front-end e-commerce web application built with **HTML, 
 ## 🛠️ Built With
 - **HTML** - Page structure and semantics
 - **CSS** - Styling and animations
-- **JavaScript ** - Interactivity and dynamic content
+- **JavaScript** - Interactivity and dynamic content
 
 ## 🚀 Getting Started
 1. Clone the repository
